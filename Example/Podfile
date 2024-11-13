@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'NevSwipeBackGesture_Example' do
+  pod 'NevSwipeBackGesture', :path => '../'
+
+  target 'NevSwipeBackGesture_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
