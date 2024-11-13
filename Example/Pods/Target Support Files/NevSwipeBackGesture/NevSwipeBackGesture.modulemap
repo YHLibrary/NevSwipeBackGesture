@@ -1,0 +1,6 @@
+framework module NevSwipeBackGesture {
+  umbrella header "NevSwipeBackGesture-umbrella.h"
+
+  export *
+  module * { export * }
+}

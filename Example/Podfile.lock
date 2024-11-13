@@ -1,0 +1,16 @@
+PODS:
+  - NevSwipeBackGesture (0.1.0)
+
+DEPENDENCIES:
+  - NevSwipeBackGesture (from `../`)
+
+EXTERNAL SOURCES:
+  NevSwipeBackGesture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NevSwipeBackGesture: 97a5f7a722e3b765d3417c254cc85b7ccbe39f64
+
+PODFILE CHECKSUM: 3ce06c61bf6fbae57044fab87c27a623beaccf86
+
+COCOAPODS: 1.15.2

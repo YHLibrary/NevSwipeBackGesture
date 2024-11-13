@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3EC3C06CCF00EFC3226F1813B877EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4230D7A0833A81C159CD0BE574E552B2 /* Pods-NevSwipeBackGesture_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E930E9E7B77A292305970F7ED0A7D7 /* Pods-NevSwipeBackGesture_Tests-dummy.m */; };
+		62A8F2AB857261093BB7BAE9F3FA4AD7 /* Pods-NevSwipeBackGesture_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06D66ED48BDE357DD47CDC20C43FEB0D /* Pods-NevSwipeBackGesture_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66BE6D912CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BE6D902CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.m */; };
+		66BE6D922CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BE6D8F2CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.h */; };
+		6AA213EA05184009C5FC5097DDCF37E4 /* NevSwipeBackGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2E41D9D8228FA2B5172C2F0302426 /* NevSwipeBackGesture-dummy.m */; };
+		6EE2F7D57998A99B2EF3CAF9C58E17E4 /* Pods-NevSwipeBackGesture_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 833DBBC1153D6589058F22257AA1127F /* Pods-NevSwipeBackGesture_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D3527D69498FE1A3B742B07D70AC7F7 /* Pods-NevSwipeBackGesture_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3152709489F1DCDA1C67685C36E0A /* Pods-NevSwipeBackGesture_Example-dummy.m */; };
+		AF0615831BD2B7F6CAAD55A729253D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D2EB53D067C6519D7EC84F83FE1349D0 /* NevSwipeBackGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDBBD26E0EA101850499EC0F80077FB /* NevSwipeBackGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70700E6A5F40F7C063CEF58053D4CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C148687CFC49FC5EDDA26B3A7390C8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC6C3D54368234B3E7D2F681D257A84;
+			remoteInfo = "Pods-NevSwipeBackGesture_Example";
+		};
+		F06B3A1E4088A2E8D7CF1BB45310FF37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2D58A7A0C6F400993CF599729F56F8;
+			remoteInfo = NevSwipeBackGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D66ED48BDE357DD47CDC20C43FEB0D /* Pods-NevSwipeBackGesture_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NevSwipeBackGesture_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0AA43CA3A4A20955F1EFE51AA9CA62FB /* Pods-NevSwipeBackGesture_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NevSwipeBackGesture_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0EDBBD26E0EA101850499EC0F80077FB /* NevSwipeBackGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NevSwipeBackGesture-umbrella.h"; sourceTree = "<group>"; };
+		102E90D950C5507AE3070F22EBCFD9A8 /* Pods-NevSwipeBackGesture_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NevSwipeBackGesture_Example.modulemap"; sourceTree = "<group>"; };
+		11E930E9E7B77A292305970F7ED0A7D7 /* Pods-NevSwipeBackGesture_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NevSwipeBackGesture_Tests-dummy.m"; sourceTree = "<group>"; };
+		15D86CD0D5D2BE75083A7F7097372266 /* Pods-NevSwipeBackGesture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NevSwipeBackGesture_Example.release.xcconfig"; sourceTree = "<group>"; };
+		16FD64F801BFF0F0C3BC11ED1A569E2D /* Pods-NevSwipeBackGesture_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NevSwipeBackGesture_Example-Info.plist"; sourceTree = "<group>"; };
+		18961F059E5A26481270580B6C23D46C /* NevSwipeBackGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NevSwipeBackGesture-prefix.pch"; sourceTree = "<group>"; };
+		2069AFD17B6A910B6C2DD4AE96FEDED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		233F0799937AE5E71C8F9D5CA7038B67 /* Pods_NevSwipeBackGesture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NevSwipeBackGesture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE8D759E4D49AC8D6A4996FB10663D9 /* NevSwipeBackGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NevSwipeBackGesture.release.xcconfig; sourceTree = "<group>"; };
+		4DDCFA9219E3D73A600118BBC370389B /* Pods_NevSwipeBackGesture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NevSwipeBackGesture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E2E41D9D8228FA2B5172C2F0302426 /* NevSwipeBackGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NevSwipeBackGesture-dummy.m"; sourceTree = "<group>"; };
+		64C78E3A5EFE92C5BBAB95DBFEC86818 /* NevSwipeBackGesture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NevSwipeBackGesture.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66BE6D8F2CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SwipeBackGestrue.h"; sourceTree = "<group>"; };
+		66BE6D902CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SwipeBackGestrue.m"; sourceTree = "<group>"; };
+		67268C4B68496A824A0863B61DC81003 /* Pods-NevSwipeBackGesture_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NevSwipeBackGesture_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72763F0B5036B295694C5410EC727D73 /* NevSwipeBackGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NevSwipeBackGesture.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DF249AA0AE91259AD1E98912BBAFDF3 /* Pods-NevSwipeBackGesture_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NevSwipeBackGesture_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FAAA8EDE6A770EC91BE77A7377E0082 /* NevSwipeBackGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NevSwipeBackGesture.modulemap; sourceTree = "<group>"; };
+		833DBBC1153D6589058F22257AA1127F /* Pods-NevSwipeBackGesture_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NevSwipeBackGesture_Example-umbrella.h"; sourceTree = "<group>"; };
+		84F63122062C626179DE4BAF2B6DB2DC /* Pods-NevSwipeBackGesture_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NevSwipeBackGesture_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8FD63FA5A49BA7AFD3DB200925243B2A /* Pods-NevSwipeBackGesture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NevSwipeBackGesture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		92D3152709489F1DCDA1C67685C36E0A /* Pods-NevSwipeBackGesture_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NevSwipeBackGesture_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A63C457B6C73C7E9FAC3CA220230103A /* NevSwipeBackGesture-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NevSwipeBackGesture-Info.plist"; sourceTree = "<group>"; };
+		AE83EC00AB58AB406B356FBA64B557AD /* NevSwipeBackGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NevSwipeBackGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C956A3712C9F9075BF5AE0E1DEB6E748 /* Pods-NevSwipeBackGesture_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NevSwipeBackGesture_Tests.modulemap"; sourceTree = "<group>"; };
+		D02BFEE61CCED37010A3D8E7DF08B1EB /* Pods-NevSwipeBackGesture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NevSwipeBackGesture_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C1C4C24F7ECD052D8186B904DD6AA0 /* Pods-NevSwipeBackGesture_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NevSwipeBackGesture_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D242DBB1C8ECF461B68B773325547549 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EFAF2BD94F2EEE6AC6364F4A143E562D /* Pods-NevSwipeBackGesture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NevSwipeBackGesture_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC10392BAC8C9314BA1BE84EC17AE2E0 /* Pods-NevSwipeBackGesture_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NevSwipeBackGesture_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524AF9E399BDB6B7574C145EAC7C2A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3EC3C06CCF00EFC3226F1813B877EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D58EF2A059A60375100C4761A038663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70700E6A5F40F7C063CEF58053D4CD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DE2B182EA65B6DE0D93743425E5831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0615831BD2B7F6CAAD55A729253D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2BAAAE56E562CBB9EBBF3A8ABFAB72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE83EC00AB58AB406B356FBA64B557AD /* NevSwipeBackGesture.framework */,
+				233F0799937AE5E71C8F9D5CA7038B67 /* Pods_NevSwipeBackGesture_Example.framework */,
+				4DDCFA9219E3D73A600118BBC370389B /* Pods_NevSwipeBackGesture_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B0B0B11E2FAF5D1E80B5FCB754EEB96 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26F59AB338823C0CF38A5D48BF7CA08 /* Pods-NevSwipeBackGesture_Example */,
+				B86B3DB533D1DDF1ADF3633EE3A76978 /* Pods-NevSwipeBackGesture_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		990E6834BB4721DA91A1379701732DBF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2069AFD17B6A910B6C2DD4AE96FEDED1 /* LICENSE */,
+				64C78E3A5EFE92C5BBAB95DBFEC86818 /* NevSwipeBackGesture.podspec */,
+				D242DBB1C8ECF461B68B773325547549 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A26F59AB338823C0CF38A5D48BF7CA08 /* Pods-NevSwipeBackGesture_Example */ = {
+			isa = PBXGroup;
+			children = (
+				102E90D950C5507AE3070F22EBCFD9A8 /* Pods-NevSwipeBackGesture_Example.modulemap */,
+				D1C1C4C24F7ECD052D8186B904DD6AA0 /* Pods-NevSwipeBackGesture_Example-acknowledgements.markdown */,
+				84F63122062C626179DE4BAF2B6DB2DC /* Pods-NevSwipeBackGesture_Example-acknowledgements.plist */,
+				92D3152709489F1DCDA1C67685C36E0A /* Pods-NevSwipeBackGesture_Example-dummy.m */,
+				0AA43CA3A4A20955F1EFE51AA9CA62FB /* Pods-NevSwipeBackGesture_Example-frameworks.sh */,
+				16FD64F801BFF0F0C3BC11ED1A569E2D /* Pods-NevSwipeBackGesture_Example-Info.plist */,
+				833DBBC1153D6589058F22257AA1127F /* Pods-NevSwipeBackGesture_Example-umbrella.h */,
+				D02BFEE61CCED37010A3D8E7DF08B1EB /* Pods-NevSwipeBackGesture_Example.debug.xcconfig */,
+				15D86CD0D5D2BE75083A7F7097372266 /* Pods-NevSwipeBackGesture_Example.release.xcconfig */,
+			);
+			name = "Pods-NevSwipeBackGesture_Example";
+			path = "Target Support Files/Pods-NevSwipeBackGesture_Example";
+			sourceTree = "<group>";
+		};
+		B86B3DB533D1DDF1ADF3633EE3A76978 /* Pods-NevSwipeBackGesture_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C956A3712C9F9075BF5AE0E1DEB6E748 /* Pods-NevSwipeBackGesture_Tests.modulemap */,
+				67268C4B68496A824A0863B61DC81003 /* Pods-NevSwipeBackGesture_Tests-acknowledgements.markdown */,
+				7DF249AA0AE91259AD1E98912BBAFDF3 /* Pods-NevSwipeBackGesture_Tests-acknowledgements.plist */,
+				11E930E9E7B77A292305970F7ED0A7D7 /* Pods-NevSwipeBackGesture_Tests-dummy.m */,
+				FC10392BAC8C9314BA1BE84EC17AE2E0 /* Pods-NevSwipeBackGesture_Tests-Info.plist */,
+				06D66ED48BDE357DD47CDC20C43FEB0D /* Pods-NevSwipeBackGesture_Tests-umbrella.h */,
+				8FD63FA5A49BA7AFD3DB200925243B2A /* Pods-NevSwipeBackGesture_Tests.debug.xcconfig */,
+				EFAF2BD94F2EEE6AC6364F4A143E562D /* Pods-NevSwipeBackGesture_Tests.release.xcconfig */,
+			);
+			name = "Pods-NevSwipeBackGesture_Tests";
+			path = "Target Support Files/Pods-NevSwipeBackGesture_Tests";
+			sourceTree = "<group>";
+		};
+		C545A0AA78DED1D79CC1E177872C23E2 /* NevSwipeBackGesture */ = {
+			isa = PBXGroup;
+			children = (
+				990E6834BB4721DA91A1379701732DBF /* Pod */,
+				F47FFF6E9E75CEE407A1D29FC306557B /* Support Files */,
+				66BE6D8F2CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.h */,
+				66BE6D902CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.m */,
+			);
+			name = NevSwipeBackGesture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CD06D720D0EC1617CF8EA811E06C9606 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C545A0AA78DED1D79CC1E177872C23E2 /* NevSwipeBackGesture */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CD06D720D0EC1617CF8EA811E06C9606 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4D2BAAAE56E562CBB9EBBF3A8ABFAB72 /* Products */,
+				8B0B0B11E2FAF5D1E80B5FCB754EEB96 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47FFF6E9E75CEE407A1D29FC306557B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAAA8EDE6A770EC91BE77A7377E0082 /* NevSwipeBackGesture.modulemap */,
+				56E2E41D9D8228FA2B5172C2F0302426 /* NevSwipeBackGesture-dummy.m */,
+				A63C457B6C73C7E9FAC3CA220230103A /* NevSwipeBackGesture-Info.plist */,
+				18961F059E5A26481270580B6C23D46C /* NevSwipeBackGesture-prefix.pch */,
+				0EDBBD26E0EA101850499EC0F80077FB /* NevSwipeBackGesture-umbrella.h */,
+				72763F0B5036B295694C5410EC727D73 /* NevSwipeBackGesture.debug.xcconfig */,
+				3EE8D759E4D49AC8D6A4996FB10663D9 /* NevSwipeBackGesture.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NevSwipeBackGesture";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		177BE5B958052A7180505DC4BDCA4C1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BE6D922CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.h in Headers */,
+				D2EB53D067C6519D7EC84F83FE1349D0 /* NevSwipeBackGesture-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D334D2DB70D3731286AEABFD9F7EEFCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A8F2AB857261093BB7BAE9F3FA4AD7 /* Pods-NevSwipeBackGesture_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA32ACFDDC1592790C22D1490B7CDF68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE2F7D57998A99B2EF3CAF9C58E17E4 /* Pods-NevSwipeBackGesture_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CC6C3D54368234B3E7D2F681D257A84 /* Pods-NevSwipeBackGesture_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029655FC5429E86D4A3A33EB215FE44 /* Build configuration list for PBXNativeTarget "Pods-NevSwipeBackGesture_Example" */;
+			buildPhases = (
+				DA32ACFDDC1592790C22D1490B7CDF68 /* Headers */,
+				7FE2FCD050BAB9DDDC1942EF87A3DD58 /* Sources */,
+				B4DE2B182EA65B6DE0D93743425E5831 /* Frameworks */,
+				9047E9F364A57B6BC585A7548A7C8AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825592FB80393AE5F34B261B12257B9B /* PBXTargetDependency */,
+			);
+			name = "Pods-NevSwipeBackGesture_Example";
+			productName = Pods_NevSwipeBackGesture_Example;
+			productReference = 233F0799937AE5E71C8F9D5CA7038B67 /* Pods_NevSwipeBackGesture_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E29AC38828B99575520061C0A28D46E /* Pods-NevSwipeBackGesture_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EA4865DECF2DE4782575030F54D122E /* Build configuration list for PBXNativeTarget "Pods-NevSwipeBackGesture_Tests" */;
+			buildPhases = (
+				D334D2DB70D3731286AEABFD9F7EEFCF /* Headers */,
+				D551B2AECEC8AF8793546342E3B60E17 /* Sources */,
+				6D58EF2A059A60375100C4761A038663 /* Frameworks */,
+				B78038E6577210B3E74A20FCE00BDFA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C906B05D6697538C4397262AF6BE4FF4 /* PBXTargetDependency */,
+			);
+			name = "Pods-NevSwipeBackGesture_Tests";
+			productName = Pods_NevSwipeBackGesture_Tests;
+			productReference = 4DDCFA9219E3D73A600118BBC370389B /* Pods_NevSwipeBackGesture_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D2D58A7A0C6F400993CF599729F56F8 /* NevSwipeBackGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376ABE3906E379C8DF83D863DEA5562F /* Build configuration list for PBXNativeTarget "NevSwipeBackGesture" */;
+			buildPhases = (
+				177BE5B958052A7180505DC4BDCA4C1D /* Headers */,
+				F44E41AC2EB31E2582186705A59295E4 /* Sources */,
+				524AF9E399BDB6B7574C145EAC7C2A31 /* Frameworks */,
+				B9756C12C42D8C68B028DFE7DE8CE666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NevSwipeBackGesture;
+			productName = NevSwipeBackGesture;
+			productReference = AE83EC00AB58AB406B356FBA64B557AD /* NevSwipeBackGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4D2BAAAE56E562CBB9EBBF3A8ABFAB72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D2D58A7A0C6F400993CF599729F56F8 /* NevSwipeBackGesture */,
+				1CC6C3D54368234B3E7D2F681D257A84 /* Pods-NevSwipeBackGesture_Example */,
+				3E29AC38828B99575520061C0A28D46E /* Pods-NevSwipeBackGesture_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9047E9F364A57B6BC585A7548A7C8AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78038E6577210B3E74A20FCE00BDFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9756C12C42D8C68B028DFE7DE8CE666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE2FCD050BAB9DDDC1942EF87A3DD58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3527D69498FE1A3B742B07D70AC7F7 /* Pods-NevSwipeBackGesture_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D551B2AECEC8AF8793546342E3B60E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4230D7A0833A81C159CD0BE574E552B2 /* Pods-NevSwipeBackGesture_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44E41AC2EB31E2582186705A59295E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA213EA05184009C5FC5097DDCF37E4 /* NevSwipeBackGesture-dummy.m in Sources */,
+				66BE6D912CE4A441000D5D4C /* UINavigationController+SwipeBackGestrue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		825592FB80393AE5F34B261B12257B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NevSwipeBackGesture;
+			target = 7D2D58A7A0C6F400993CF599729F56F8 /* NevSwipeBackGesture */;
+			targetProxy = F06B3A1E4088A2E8D7CF1BB45310FF37 /* PBXContainerItemProxy */;
+		};
+		C906B05D6697538C4397262AF6BE4FF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NevSwipeBackGesture_Example";
+			target = 1CC6C3D54368234B3E7D2F681D257A84 /* Pods-NevSwipeBackGesture_Example */;
+			targetProxy = C148687CFC49FC5EDDA26B3A7390C8D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		205076DA03D458E4CA53DD8AF1AC897D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE8D759E4D49AC8D6A4996FB10663D9 /* NevSwipeBackGesture.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NevSwipeBackGesture/NevSwipeBackGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NevSwipeBackGesture/NevSwipeBackGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NevSwipeBackGesture/NevSwipeBackGesture.modulemap";
+				PRODUCT_MODULE_NAME = NevSwipeBackGesture;
+				PRODUCT_NAME = NevSwipeBackGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37E4EDBE493A25C0DF2548DDB537F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72763F0B5036B295694C5410EC727D73 /* NevSwipeBackGesture.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NevSwipeBackGesture/NevSwipeBackGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NevSwipeBackGesture/NevSwipeBackGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NevSwipeBackGesture/NevSwipeBackGesture.modulemap";
+				PRODUCT_MODULE_NAME = NevSwipeBackGesture;
+				PRODUCT_NAME = NevSwipeBackGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F81F5F694C3AEBFE2ADA70DB4DC41EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD63FA5A49BA7AFD3DB200925243B2A /* Pods-NevSwipeBackGesture_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Tests/Pods-NevSwipeBackGesture_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Tests/Pods-NevSwipeBackGesture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6BBECE49F2DBF62216D899E4421473E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D86CD0D5D2BE75083A7F7097372266 /* Pods-NevSwipeBackGesture_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Example/Pods-NevSwipeBackGesture_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Example/Pods-NevSwipeBackGesture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C93E15B49764C9E3743972204EF3C4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02BFEE61CCED37010A3D8E7DF08B1EB /* Pods-NevSwipeBackGesture_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Example/Pods-NevSwipeBackGesture_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Example/Pods-NevSwipeBackGesture_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E00600B74F327184C40ABB62A6058645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAF2BD94F2EEE6AC6364F4A143E562D /* Pods-NevSwipeBackGesture_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Tests/Pods-NevSwipeBackGesture_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NevSwipeBackGesture_Tests/Pods-NevSwipeBackGesture_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376ABE3906E379C8DF83D863DEA5562F /* Build configuration list for PBXNativeTarget "NevSwipeBackGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E4EDBE493A25C0DF2548DDB537F54A /* Debug */,
+				205076DA03D458E4CA53DD8AF1AC897D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EA4865DECF2DE4782575030F54D122E /* Build configuration list for PBXNativeTarget "Pods-NevSwipeBackGesture_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F81F5F694C3AEBFE2ADA70DB4DC41EE /* Debug */,
+				E00600B74F327184C40ABB62A6058645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029655FC5429E86D4A3A33EB215FE44 /* Build configuration list for PBXNativeTarget "Pods-NevSwipeBackGesture_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93E15B49764C9E3743972204EF3C4CA /* Debug */,
+				A6BBECE49F2DBF62216D899E4421473E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

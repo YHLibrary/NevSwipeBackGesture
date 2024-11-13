@@ -1,0 +1,6 @@
+framework module Pods_NevSwipeBackGesture_Tests {
+  umbrella header "Pods-NevSwipeBackGesture_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
